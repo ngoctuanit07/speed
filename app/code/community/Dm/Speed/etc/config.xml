@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<config>
+    <modules>
+        <Dm_Speed>
+            <version>1.0.0</version>
+        </Dm_Speed>
+    </modules>
+	<global>
+		<blocks>
+			<dm_speed>
+				<class>Dm_Speed_Block</class>
+			</dm_speed>
+		</blocks>
+
+		<helpers>
+			<dm_speed>
+				<class>Dm_Speed_Helper</class>
+			</dm_speed>
+		</helpers>
+
+		<models>
+			<dm_speed>
+				<class>Dm_Speed_Model</class>
+			</dm_speed>
+		</models>
+
+
+		<events>
+			<controller_front_init_before>
+				<observers>
+					<dm_speed__controller_front_init_before>
+                        <class>dm_speed/observer</class>
+                        <method>controller_front_init_before</method>
+					</dm_speed__controller_front_init_before>
+				</observers>
+			</controller_front_init_before>
+		</events>
+
+	</global>
+
+
+
+
+
+
+
+</config>

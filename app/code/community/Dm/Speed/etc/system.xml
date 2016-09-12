@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<config>
+  <tabs>
+		<df>
+			<label>DM MVP</label>
+			<sort_order>200</sort_order>
+		</df>
+	</tabs>
+    <sections>
+        <dm_speed translate='label' module='dm_speed'>
+            <label>Setting Cache</label>
+            <tab>df</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>19000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<general>
+                    <label>Setting</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>3000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+					<fields>
+
+
+
+						<enable_zend_date_caching translate='label'>
+							<label>Zend Date Caching</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>2000</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</enable_zend_date_caching>
+					</fields>
+				</general>
+            </groups>
+        </dm_speed>
+    </sections>
+</config>

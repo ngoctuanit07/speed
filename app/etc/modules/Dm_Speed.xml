@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Dm_Speed>
+      <active>true</active>
+      <codePool>community</codePool>
+    </Dm_Speed>
+  </modules>
+</config>
